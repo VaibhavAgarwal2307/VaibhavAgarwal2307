@@ -1,0 +1,124 @@
+name: Update Lifetime Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate lifetime contributions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p assets
+
+          START_YEAR=2008
+          CURRENT_YEAR=$(date -u +%Y)
+          TOTAL=0
+
+          for YEAR in $(seq $START_YEAR $CURRENT_YEAR); do
+
+            FROM="${YEAR}-01-01T00:00:00Z"
+
+            if [ "$YEAR" -eq "$CURRENT_YEAR" ]; then
+              TO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            else
+              TO="$((YEAR + 1))-01-01T00:00:00Z"
+            fi
+
+            QUERY=$(cat <<EOF
+          {
+            "query": "query {
+              user(login: \"VaibhavAgarwal2307\") {
+                contributionsCollection(from: \"${FROM}\", to: \"${TO}\") {
+                  contributionCalendar {
+                    totalContributions
+                  }
+                }
+              }
+            }"
+          }
+          EOF
+          )
+
+            RESPONSE=$(curl -s \
+              -H "Authorization: bearer $GH_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d "$QUERY" \
+              https://api.github.com/graphql)
+
+            YEAR_TOTAL=$(echo "$RESPONSE" | jq -r \
+              '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0')
+
+            TOTAL=$((TOTAL + YEAR_TOTAL))
+
+          done
+
+          echo "Lifetime contributions: $TOTAL"
+
+          cat > assets/contributions.svg <<EOF
+          <svg xmlns="http://www.w3.org/2000/svg"
+               width="300"
+               height="150"
+               viewBox="0 0 300 150">
+
+            <rect width="300"
+                  height="150"
+                  rx="14"
+                  fill="#f6f8fa"/>
+
+            <text x="150"
+                  y="38"
+                  text-anchor="middle"
+                  font-family="Arial, sans-serif"
+                  font-size="17"
+                  font-weight="600"
+                  fill="#24292f">
+              GitHub Contributions
+            </text>
+
+            <text x="150"
+                  y="92"
+                  text-anchor="middle"
+                  font-family="Arial, sans-serif"
+                  font-size="38"
+                  font-weight="700"
+                  fill="#238636">
+              $TOTAL
+            </text>
+
+            <text x="150"
+                  y="120"
+                  text-anchor="middle"
+                  font-family="Arial, sans-serif"
+                  font-size="13"
+                  fill="#57606a">
+              Total contributions
+            </text>
+
+          </svg>
+          EOF
+
+      - name: Save updated contribution count
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/contributions.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update lifetime contribution count"
+            git push
+          fi

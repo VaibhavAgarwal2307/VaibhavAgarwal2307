@@ -37,19 +37,26 @@ jobs:
             fi
 
             QUERY=$(cat <<EOF
-          {
-            "query": "query {
-              user(login: \"VaibhavAgarwal2307\") {
-                contributionsCollection(from: \"${FROM}\", to: \"${TO}\") {
-                  contributionCalendar {
-                    totalContributions
-                  }
-                }
-              }
-            }"
-          }
-          EOF
-          )
+{
+  "query": "query {
+    user(login: \"VaibhavAgarwal2307\") {
+      contributionsCollection(from: \"${FROM}\", to: \"${TO}\") {
+        contributionCalendar {
+          totalContributions
+        }
+        totalCommitContributions
+        totalIssueContributions
+        totalPullRequestContributions
+        totalPullRequestReviewContributions
+        hasAnyContributions
+        hasAnyRestrictedContributions
+        restrictedContributionsCount
+      }
+    }
+  }"
+}
+EOF
+)
 
             RESPONSE=$(curl -s \
               -H "Authorization: bearer $GH_TOKEN" \
@@ -57,6 +64,7 @@ jobs:
               -d "$QUERY" \
               https://api.github.com/graphql)
 
+echo "$RESPONSE" | jq '.data.user.contributionsCollection'
             YEAR_TOTAL=$(echo "$RESPONSE" | jq -r \
               '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0')
 

@@ -9,15 +9,30 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vaibhavagrawal2307/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/vaibhavagarwal2307/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
   </a>
-  <a href="https://leetcode.com/u/vaibhagrawal2307/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+  &nbsp;&nbsp;
+  <a href="https://leetcode.com/u/vaibhavagarwal2307/">
+    <img
+      src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"
+      alt="LeetCode"
+    />
   </a>
-  <a href="https://github.com/VaibhavAgarwal2307">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
+</p>
+
+---
+
+## 📊 GitHub Contributions
+
+<p align="center">
+  <img
+    src="./assets/contributions.svg"
+    alt="Total GitHub Contributions"
+  />
 </p>
 
 ---
@@ -126,31 +141,6 @@ Docker
 
 </tr>
 </table>
-
----
-
-## 📊 GitHub Contributions
-
-<p align="center">
-  <img
-    src="./assets/contributions.svg"
-    alt="Total GitHub Contributions"
-  />
-</p>
-
----
-
-## 📫 Connect With Me
-
-<p>
-  <a href="https://www.linkedin.com/in/vaibhavagrawal2307/">
-    <img src="https://img.shields.io/badge/LinkedIn-Vaibhav%20Agarwal-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/u/vaibhagrawal2307/">
-    <img src="https://img.shields.io/badge/LeetCode-Vaibhav%20Agarwal-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"/>
-  </a>
-</p>
 
 ---
 

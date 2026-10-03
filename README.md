@@ -1,20 +1,128 @@
-<h1 align="center">Hello folks! 
-               I'm Vaibhav Agarwal</h1>
-<h3 align="center">An enthusiastic backend developer</h3>
+<h1 align="center">Hi 👋, I'm Vaibhav Agarwal</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=vaibhavagarwal2307&label=Profile%20views&color=0e75b6&style=flat" alt="vaibhavagarwal2307" /> </p>
+<h3 align="center">
+  Backend Developer | Java | Spring Boot | Microservices
+</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vaibhavagarwal2307" alt="vaibhavagarwal2307" /></a> </p>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/vaibhavagarwal2307/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vaibhavagarwal2307/" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/vaibhavagarwal2307/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/vaibhavagarwal2307/" height="30" width="40" /></a>
+<p align="center">
+  Building scalable backend systems and solving problems one step at a time.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/vaibhavagrawal2307/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/vaibhagrawal2307/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode"/>
+  </a>
+  <a href="https://github.com/VaibhavAgarwal2307" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+</p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vaibhavagarwal2307&show_icons=true&locale=en&layout=compact" alt="vaibhavagarwal2307" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhavagarwal2307&" alt="vaibhavagarwal2307" /></p>
+## 👨‍💻 About Me
+
+- 💻 Backend Developer focused on **Java and Spring Boot**
+- 🚀 Interested in **Microservices, REST APIs and Distributed Systems**
+- 📨 Building event-driven applications using **Apache Kafka**
+- 🗄️ Working with **MySQL and PostgreSQL**
+- ☁️ Exploring **AWS, Docker and cloud-native development**
+- 🧩 Practicing **Data Structures & Algorithms** regularly
+- 📚 Continuously learning and improving my software engineering skills
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45" alt="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="45" height="45" alt="Spring Boot"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="45" height="45" alt="Apache Kafka"/>
+</p>
+
+### Databases & Caching
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="45" height="45" alt="MySQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="PostgreSQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="45" height="45" alt="Redis"/>
+</p>
+
+### Cloud & DevOps
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="55" height="45" alt="AWS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" alt="GitHub"/>
+</p>
+
+### Frontend
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" height="45" alt="React.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" height="45" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45" alt="CSS3"/>
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🔗 URL Shortener
+A backend application for generating and managing shortened URLs.
+
+**Tech:** Java • Spring Boot • REST API • PostgreSQL
+
+### 📨 Notification System
+Event-driven notification service with asynchronous processing and failure handling.
+
+**Tech:** Java • Spring Boot • Apache Kafka • PostgreSQL • Docker
+
+### 🛒 E-Commerce Microservices
+A microservices-based e-commerce application designed around independently deployable services.
+
+**Tech:** Java • Spring Boot • Microservices • Kafka • Docker • PostgreSQL
+
+---
+
+## 📊 GitHub Contributions
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com/?user=VaibhavAgarwal2307&hide_current_streak=true&hide_longest_streak=true&hide_border=true"
+    alt="GitHub Contributions"
+  />
+</p>
+
+---
+
+## 📈 Most Used Languages
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=VaibhavAgarwal2307&layout=compact&hide_border=true&langs_count=8"
+    alt="Most Used Languages"
+  />
+</p>
+
+---
+
+## 🎯 Current Focus
+
+```text
+Java & Spring Boot
+        ↓
+Microservices
+        ↓
+Apache Kafka
+        ↓
+System Design
+        ↓
+Data Structures & Algorithms
+        ↓
+Cloud & Distributed Systems

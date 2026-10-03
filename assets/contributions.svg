@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="300"
+     height="150"
+     viewBox="0 0 300 150">
+
+  <rect width="300"
+        height="150"
+        rx="14"
+        fill="#f6f8fa"/>
+
+  <text x="150"
+        y="38"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="17"
+        font-weight="600"
+        fill="#24292f">
+    GitHub Contributions
+  </text>
+
+  <text x="150"
+        y="92"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="38"
+        font-weight="700"
+        fill="#238636">
+    0
+  </text>
+
+  <text x="150"
+        y="120"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        fill="#57606a">
+    Total contributions
+  </text>
+
+</svg>

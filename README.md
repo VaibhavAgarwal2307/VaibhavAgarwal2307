@@ -1,22 +1,22 @@
 <h1 align="center">Hi 👋, I'm Vaibhav Agarwal</h1>
 
 <h3 align="center">
-  Backend Developer | Java | Spring Boot | Microservices
+  Java Backend Developer | Spring Boot | Microservices | Apache Kafka
 </h3>
 
 <p align="center">
-  Building scalable backend systems and solving problems one step at a time.
+  Building scalable backend systems, REST APIs and event-driven applications.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vaibhavagrawal2307/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://leetcode.com/u/vaibhagrawal2307/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode" alt="LeetCode"/>
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"/>
   </a>
   <a href="https://github.com/VaibhavAgarwal2307" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
@@ -24,89 +24,104 @@
 
 ## 👨‍💻 About Me
 
-- 💻 Backend Developer focused on **Java and Spring Boot**
-- 🚀 Interested in **Microservices, REST APIs and Distributed Systems**
-- 📨 Building event-driven applications using **Apache Kafka**
-- 🗄️ Working with **MySQL and PostgreSQL**
-- ☁️ Exploring **AWS, Docker and cloud-native development**
-- 🧩 Practicing **Data Structures & Algorithms** regularly
-- 📚 Continuously learning and improving my software engineering skills
+I'm a software developer focused on building reliable and scalable applications using the Java ecosystem.
+
+- ☕ Strong focus on **Java & Spring Boot**
+- 🚀 Building **REST APIs and Microservices**
+- 📨 Working with **Apache Kafka & event-driven architectures**
+- 🔐 Interested in **Spring Security, authentication and authorization**
+- 🗄️ Experience with **SQL and NoSQL databases**
+- ☁️ Exploring **AWS and cloud-native development**
+- ⚛️ Comfortable with **React.js** for frontend development
+- 🤖 Using modern AI-assisted development tools such as **GitHub Copilot and Cursor**
+- 🧩 Regularly practicing **Data Structures & Algorithms**
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
-### Backend
+### ☕ Core & Backend
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45" alt="Java"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="45" height="45" alt="Spring Boot"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="45" height="45" alt="Apache Kafka"/>
-</p>
+| Technology | Skills |
+|---|---|
+| **Java** | Core Java, OOP, Collections, Streams, Lambda, Multithreading |
+| **Spring Boot** | REST APIs, Dependency Injection, Configuration, Actuator |
+| **Spring** | Spring Security, Spring Data JPA |
+| **Microservices** | Service-to-service communication, API design, distributed systems |
+| **Messaging** | Apache Kafka, Event-driven architecture |
+| **ORM / Persistence** | Hibernate, JPA, JDBC |
+| **APIs** | REST, JSON, HTTP |
 
-### Databases & Caching
+### 🗄️ Databases
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="45" height="45" alt="MySQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="PostgreSQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="45" height="45" alt="Redis"/>
-</p>
+| Type | Technologies |
+|---|---|
+| **Relational** | MySQL, PostgreSQL |
+| **NoSQL** | MongoDB |
+| **Caching** | Redis |
 
-### Cloud & DevOps
+### ☁️ Cloud & DevOps
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="55" height="45" alt="AWS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" alt="GitHub"/>
-</p>
+| Area | Technologies |
+|---|---|
+| **Cloud** | AWS |
+| **Containers** | Docker |
+| **Version Control** | Git, GitHub |
+| **Build** | Maven |
 
-### Frontend
+### 🎨 Frontend
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" height="45" alt="React.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" height="45" alt="HTML5"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45" alt="CSS3"/>
-</p>
+**React.js • HTML5 • CSS3 • JavaScript**
+
+### 🤖 AI-Assisted Development
+
+**GitHub Copilot • Cursor**
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🔗 URL Shortener
-A backend application for generating and managing shortened URLs.
+A Spring Boot backend application for creating and managing shortened URLs.
 
 **Tech:** Java • Spring Boot • REST API • PostgreSQL
 
 ### 📨 Notification System
-Event-driven notification service with asynchronous processing and failure handling.
+An event-driven notification service with asynchronous processing, Kafka-based messaging, retry handling and failure management.
 
 **Tech:** Java • Spring Boot • Apache Kafka • PostgreSQL • Docker
 
 ### 🛒 E-Commerce Microservices
 A microservices-based e-commerce application designed around independently deployable services.
 
-**Tech:** Java • Spring Boot • Microservices • Kafka • Docker • PostgreSQL
+**Tech:** Java • Spring Boot • Microservices • Kafka • PostgreSQL • Docker
 
 ---
 
-## 📊 GitHub Contributions
+## 📊 GitHub Activity
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com/?user=VaibhavAgarwal2307&hide_current_streak=true&hide_longest_streak=true&hide_border=true"
-    alt="GitHub Contributions"
+    src="https://github-readme-stats.vercel.app/api?username=VaibhavAgarwal2307&show_icons=true&hide_title=true&hide_rank=true&hide_border=true&include_all_commits=true&count_private=true"
+    alt="GitHub Stats"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=VaibhavAgarwal2307&layout=compact&langs_count=8&hide_border=true"
+    alt="Most Used Languages"
   />
 </p>
 
 ---
 
-## 📈 Most Used Languages
+## 📈 Contribution Activity
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=VaibhavAgarwal2307&layout=compact&hide_border=true&langs_count=8"
-    alt="Most Used Languages"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=VaibhavAgarwal2307&hide_border=true&area=true"
+    alt="GitHub Contribution Activity Graph"
   />
 </p>
 
@@ -114,15 +129,24 @@ A microservices-based e-commerce application designed around independently deplo
 
 ## 🎯 Current Focus
 
-```text
-Java & Spring Boot
-        ↓
-Microservices
-        ↓
-Apache Kafka
-        ↓
-System Design
-        ↓
-Data Structures & Algorithms
-        ↓
-Cloud & Distributed Systems
+<p align="center">
+
+**Java & Spring Boot**  
+↓  
+**REST APIs & Microservices**  
+↓  
+**Apache Kafka & Event-Driven Systems**  
+↓  
+**AWS & Cloud-Native Development**  
+↓  
+**System Design & Distributed Systems**  
+↓  
+**Data Structures & Algorithms**
+
+</p>
+
+---
+
+<p align="center">
+  <b>💡 Build • Learn • Improve</b>
+</p>

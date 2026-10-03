@@ -63,7 +63,7 @@ jobs:
               -d "$QUERY" \
               https://api.github.com/graphql)
 
-            echo "$RESPONSE" | jq '.data.user.contributionsCollection'
+            echo "$RESPONSE" | jq .
             YEAR_TOTAL=$(echo "$RESPONSE" | jq -r \
               '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0')
 

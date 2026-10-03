@@ -40,111 +40,34 @@ I'm a software developer focused on building **scalable, maintainable and produc
 
 ## 🛠️ Technical Skills
 
-### ☕ Java & Backend
+### Java & Backend Development
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="42" height="42" alt="Java"/>
-  <b> Java</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="42" height="42" alt="Spring Boot"/>
-  <b> Spring Boot</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="42" height="42" alt="Apache Kafka"/>
-  <b> Apache Kafka</b>
-</p>
-
-<p>
-  <b>REST APIs</b>
-  &nbsp; • &nbsp;
-  <b>Microservices</b>
-  &nbsp; • &nbsp;
-  <b>Spring Security</b>
-  &nbsp; • &nbsp;
-  <b>Hibernate</b>
-  &nbsp; • &nbsp;
-  <b>JPA</b>
-  &nbsp; • &nbsp;
-  <b>JDBC</b>
-</p>
+**Java** • **Spring Boot** • **REST APIs** • **Microservices**  
+**Apache Kafka** • **Spring Security** • **Hibernate** • **JPA** • **JDBC**
 
 ---
 
-### 🗄️ Databases & Caching
+### Databases & Caching
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="42" height="42" alt="MySQL"/>
-  <b> MySQL</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL"/>
-  <b> PostgreSQL</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="42" height="42" alt="MongoDB"/>
-  <b> MongoDB</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="42" height="42" alt="Redis"/>
-  <b> Redis</b>
-</p>
+**MySQL** • **PostgreSQL** • **MongoDB** • **Redis**
 
 ---
 
-### ☁️ Cloud, DevOps & Tools
+### Cloud, DevOps & Tools
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="48" height="42" alt="AWS"/>
-  <b> AWS</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="42" height="42" alt="Docker"/>
-  <b> Docker</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" height="42" alt="Git"/>
-  <b> Git</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="42" height="42" alt="GitHub"/>
-  <b> GitHub</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="42" height="42" alt="Maven"/>
-  <b> Maven</b>
-</p>
+**AWS** • **Docker** • **Git** • **GitHub** • **Maven**
 
 ---
 
-### ⚛️ Frontend
+### Frontend Development
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="42" height="42" alt="React.js"/>
-  <b> React.js</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="42" height="42" alt="JavaScript"/>
-  <b> JavaScript</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="42" height="42" alt="HTML5"/>
-  <b> HTML5</b>
-  &nbsp;&nbsp;&nbsp;
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="42" height="42" alt="CSS3"/>
-  <b> CSS3</b>
-</p>
+**React.js** • **JavaScript** • **HTML5** • **CSS3**
 
 ---
 
-### 🤖 AI-Assisted Development
+### AI-Assisted Development
 
-<p>
-  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/>
-</p>
+**GitHub Copilot** • **Cursor**
 
 ---
 

@@ -1,9 +1,6 @@
 name: Update Lifetime Contributions
 
 on:
-  push:
-    branches:
-      - main
 
   repository_dispatch:
     types: [leetcode_sync]
